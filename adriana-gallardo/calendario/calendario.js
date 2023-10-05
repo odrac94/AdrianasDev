@@ -3,7 +3,7 @@ const eventos = [
         img: 'https://d2zjr4930cxu48.cloudfront.net/event/71467/1._Calendario_AG_NOV17-2023.jpg',
         titulo: 'Certificación: Aprende a hablar en público',
         fecha: 'NOV 17, 2023',
-        descripcion: 'Con esta certificación descubrirás cómo expresarte con seguridad y convicción en cualquier situación. Desarrolla tus habilidades de comunicación, liderazgo y persuasión de la mano de una experta internacional, Adriana Gallardo.',
+        descripcion: 'Descubre confianza y habilidades de comunicación con Adriana Gallardo, experta internacional. ¡Inscríbete ya!',
         enlaceVerMas: 'https://www.mujereslideres.com/hablar-en-publico',
         google: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231117T180000Z%2F20231117T090000Z&details=Con%20esta%20certificaci%C3%B3n%20descubrir%C3%A1s%20c%C3%B3mo%20expresarte%20con%20seguridad%20y%20convicci%C3%B3n%20en%20cualquier%20situaci%C3%B3n.%20Desarrolla%20tus%20habilidades%20de%20comunicaci%C3%B3n%2C%20liderazgo%20y%20persuasi%C3%B3n%20de%20la%20mano%20de%20una%20experta%20internacional%2C%20Adriana%20Gallardo.&location=CA&text=Certificaci%C3%B3n%3A%20Aprende%20a%20hablar%20en%20p%C3%BAblico',
         outlook: 'https://outlook.live.com/calendar/0/action/compose?allday=false&body=Con%20esta%20certificaci%C3%B3n%20descubrir%C3%A1s%20c%C3%B3mo%20expresarte%20con%20seguridad%20y%20convicci%C3%B3n%20en%20cualquier%20situaci%C3%B3n.%20Desarrolla%20tus%20habilidades%20de%20comunicaci%C3%B3n%2C%20liderazgo%20y%20persuasi%C3%B3n%20de%20la%20mano%20de%20una%20experta%20internacional%2C%20Adriana%20Gallardo.&enddt=2023-11-17T09%3A00%3A00%2B00%3A00&location=CA&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-11-17T18%3A00%3A00%2B00%3A00&subject=Certificaci%C3%B3n%3A%20Aprende%20a%20hablar%20en%20p%C3%BAblico',
@@ -12,7 +12,7 @@ const eventos = [
         img: 'https://d2zjr4930cxu48.cloudfront.net/event/71466/2._Calendario_AG_ENE25-2024.jpg',
         titulo: 'Empodérate Business Bootcamp',
         fecha: 'ENE 25, 2024',
-        descripcion: 'Únete a nosotros en esta experiencia única de 1 día, donde Adriana Gallardo, reconocida por Forbes como una de las 100 mujeres más poderosas, compartirá sus más de 30 años de conocimiento y experiencia en negocios, marketing, ventas y comunicación.',
+        descripcion: 'Únete a Adriana Gallardo, reconocida por Forbes, para una experiencia única en un día. ¡Potencia tus habilidades en negocios y comunicación!',
         enlaceVerMas: 'https://www.mujereslideres.com/empoderate-business-bootcamp',
         google: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240125T180000Z%2F20240125T090000Z&details=%C3%9Anete%20a%20nosotros%20en%20esta%20experiencia%20%C3%BAnica%20de%201%20d%C3%ADa%2C%20donde%20Adriana%20Gallardo%2C%20reconocida%20por%20Forbes%20como%20una%20de%20las%20100%20mujeres%20m%C3%A1s%20poderosas%2C%20compartir%C3%A1%20sus%20m%C3%A1s%20de%2030%20a%C3%B1os%20de%20conocimiento%20y%20experiencia%20en%20negocios%2C%20marketing%2C%20ventas%20y%20comunicaci%C3%B3n.&location=CA&text=Empod%C3%A9rate%20Business%20Bootcamp',
         outlook: 'https://outlook.live.com/calendar/0/action/compose?allday=false&body=%C3%9Anete%20a%20nosotros%20en%20esta%20experiencia%20%C3%BAnica%20de%201%20d%C3%ADa%2C%20donde%20Adriana%20Gallardo%2C%20reconocida%20por%20Forbes%20como%20una%20de%20las%20100%20mujeres%20m%C3%A1s%20poderosas%2C%20compartir%C3%A1%20sus%20m%C3%A1s%20de%2030%20a%C3%B1os%20de%20conocimiento%20y%20experiencia%20en%20negocios%2C%20marketing%2C%20ventas%20y%20comunicaci%C3%B3n.&enddt=2024-01-25T09%3A00%3A00%2B00%3A00&location=CA&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-25T18%3A00%3A00%2B00%3A00&subject=Empod%C3%A9rate%20Business%20Bootcamp'
@@ -21,14 +21,24 @@ const eventos = [
         img: 'https://d2zjr4930cxu48.cloudfront.net/event/71469/3._Calendario_AG_FEN8-2024.jpg',
         titulo: 'Grow and scale your business Mastermind',
         fecha: 'FEB 08, 2024',
-        descripcion: 'El primer y único mastermind bilingüe para empresarios latinos que transformará tu negocio. Descubre estrategias y secretos para aumentar tus ingresos: Sistemas de ventas inteligentes, técnicas de cierre maestras, optimización de embudos de ventas.',
+        descripcion: 'El único mastermind bilingüe para latinos: estrategias para multiplicar ingresos, ventas y embudos optimizados.',
         enlaceVerMas: 'https://www.mujereslideres.com/grow-and-scale-your-business-mastermind-',
         google: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240208T180000Z%2F20240208T090000Z&details=Descubre%20estrategias%20y%20secretos%20para%20aumentar%20tus%20ingresos%3A%20Sistemas%20de%20Ventas%20Inteligentes.%20T%C3%A9cnicas%20de%20Cierre%20Maestras.%20Optimizaci%C3%B3n%20de%20Embudos%20de%20Ventas.&location=CA&text=Grow%20and%20scale%20your%20business%20Mastermind',
         outlook: 'https://outlook.live.com/calendar/0/action/compose?allday=false&body=Descubre%20estrategias%20y%20secretos%20para%20aumentar%20tus%20ingresos%3A%20Sistemas%20de%20Ventas%20Inteligentes.%20T%C3%A9cnicas%20de%20Cierre%20Maestras.%20Optimizaci%C3%B3n%20de%20Embudos%20de%20Ventas.&enddt=2024-02-08T09%3A00%3A00%2B00%3A00&location=CA&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-02-08T18%3A00%3A00%2B00%3A00&subject=Grow%20and%20scale%20your%20business%20Mastermind'
     }
 ];
 
-
+const eventosImgs = [
+    {
+        img: 'https://images.clickfunnels.com/cdn-cgi/image/f=auto,q=80/https://statics.myclickfunnels.com/image/1116369/file/f8d63bf44b9c0cc5cbf31305ef9e37ad.jpg',
+    },
+    {
+        img: 'https://images.clickfunnels.com/cdn-cgi/image/f=auto,q=80/https://statics.myclickfunnels.com/image/1117073/file/9dbae38a39f5dcb1433b6a63fae9203a.jpg',
+    },
+    {
+        img: 'https://images.clickfunnels.com/cdn-cgi/image/f=auto,q=80/https://statics.myclickfunnels.com/image/1120684/file/156a262e23781d9168d47e82b0b91112.jpg',
+    }
+]
 for (const evento of eventos) {
     const calendarioDiv = document.querySelector('.calendario');
     const calendarioContenedorDiv = document.createElement('div');
