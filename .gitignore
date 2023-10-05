@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/node,python,git,macos,windows,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,python,git,macos,windows,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/images,git,node,python,macos,windows,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=images,git,node,python,macos,windows,visualstudiocode
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -15,6 +15,71 @@
 *_BASE_*.txt
 *_LOCAL_*.txt
 *_REMOTE_*.txt
+
+### Images ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
+
+# JPEG XR
+*.jxr
+*.hdp
+*.wdp
+
+# Graphics Interchange Format
+*.gif
+
+# RAW
+*.raw
+
+# Web P
+*.webp
+
+# Portable Network Graphics
+*.png
+
+# Animated Portable Network Graphics
+*.apng
+
+# Multiple-image Network Graphics
+*.mng
+
+# Tagged Image File Format
+*.tiff
+*.tif
+
+# Scalable Vector Graphics
+*.svg
+*.svgz
+
+# Portable Document Format
+*.pdf
+
+# X BitMap
+*.xbm
+
+# BMP
+*.bmp
+*.dib
+
+# ICO
+*.ico
+
+# 3D Images
+*.3dm
+*.max
 
 ### macOS ###
 # General
@@ -403,4 +468,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/node,python,git,macos,windows,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/images,git,node,python,macos,windows,visualstudiocode
