@@ -38,7 +38,8 @@ const eventosImgs = [
     {
         img: 'https://images.clickfunnels.com/cdn-cgi/image/f=auto,q=80/https://statics.myclickfunnels.com/image/1120684/file/156a262e23781d9168d47e82b0b91112.jpg',
     }
-]
+];
+
 for (const evento of eventos) {
     const calendarioDiv = document.querySelector('.calendario');
     const calendarioContenedorDiv = document.createElement('div');
@@ -130,3 +131,12 @@ for (const evento of eventos) {
 
     calendarioDiv.appendChild(calendarioContenedorDiv);
 };
+
+const contenedorEventos = document.querySelectorAll('.calendario__contenedor');
+
+contenedorEventos.forEach((contenedor) => {
+    contenedorEventos.addEventListener('click', () => {
+        const nuevaImagen = contenedorEventos.getAttribute('data-image');
+
+    });
+});
