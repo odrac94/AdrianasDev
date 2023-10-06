@@ -132,11 +132,24 @@ for (const evento of eventos) {
     calendarioDiv.appendChild(calendarioContenedorDiv);
 };
 
-const contenedorEventos = document.querySelectorAll('.calendario__contenedor');
+// Añade el siguiente bloque de código en su lugar
+const contenedores = document.querySelectorAll('.calendario__contenedor');
+const imgEvento = document.querySelector('#imgEvento');
 
-contenedorEventos.forEach((contenedor) => {
-    contenedorEventos.addEventListener('click', () => {
-        const nuevaImagen = contenedorEventos.getAttribute('data-image');
+// Agrega la clase 'activo' al primer contenedor por defecto
+contenedores[0].classList.add('activo');
 
+contenedores.forEach((contenedor, index) => {
+    contenedor.addEventListener('mouseover', () => {
+        // Elimna la clase 'activo' de todos los contenedores
+        contenedores.forEach((c) => c.classList.remove('activo'));
+
+        // Agrega la clase 'activo' al contenedor que se hizo click
+        contenedor.classList.add('activo');
+
+        // Verifica si el índice existe en el array de eventos
+        if (eventosImgs[index]) {
+            imgEvento.setAttribute('src', eventosImgs[index].img);
+        }
     });
 });
