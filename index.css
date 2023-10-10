@@ -1,0 +1,165 @@
+@import url("https://use.typekit.net/yyz6vzn.css");
+
+:root {
+    --color-principal: #4F709C;
+    --color-secundario: #213555;
+    --color-terciario: #E5D283;
+    --color-background-principal: #F0F0F0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "winco", sans-serif;
+    background-color: var(--color-background-principal);
+}
+
+/* MENÚ */
+nav.menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: var(--color-principal);
+    text-align: center;
+    background-color: var(--color-terciario);
+    /* box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2); */
+    padding: 20px;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    display: inline;
+    margin-right: 50px;
+}
+.menu a {
+    color: var(--color-secundario);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: var(--color-principal);
+}
+.seccion.uno {
+    padding: 80px 20px 20px 20px;
+}
+.seccion {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* TÍTULO */
+.titulo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.contenedor {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.titulo {
+    margin: 0 0 120px 0;
+}
+.titulo h1 {
+    color: var(--color-secundario);
+    font-size: 4rem;
+    margin: 0 0 10px 0;
+}
+.titulo hr {
+    width: 12%;
+    color: #E5D283;
+    border: 3px solid var(--color-terciario);
+    border-radius: 20px;
+}
+
+/* GRID CONTAINER */
+.contenedor.grid {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap: 50px;
+}
+.elemento {
+    width: 100%;
+    margin-bottom: 70px;
+}
+.elemento a {
+    text-decoration: none;
+}
+.carta {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    transition: ease-in-out .2s;
+    aspect-ratio: 1 / 1;
+}
+.carta:hover {
+    transform: translateY(-50px) scale(1.04);
+    box-shadow: 0px 35px 30px 0px rgba(0,0,0,0.05);
+}
+.carta:active {
+    transform: translateY(-30px) scale(1.04);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+}
+.carta__img {
+    position: relative;
+    top: -50px;
+    width: 100%;
+    max-width: 380px;
+    height: 200px;
+    background-image: url('https://www.wordstream.com/wp-content/uploads/2022/07/website-examples-feature.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #213555;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+}
+.carta h2 {
+    color: var(--color-principal);
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+}
+.carta p {
+    color: var(--color-secundario);
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 780px) {
+    /* GRID CONTAINER */
+    .contenedor.grid {
+        grid-template-columns:  1fr 1fr;
+        gap: 30px;
+    }
+    .elemento {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    /* GRID CONTAINER */
+    .contenedor.grid {
+        grid-template-columns:  1fr;
+        gap: 80px;
+    }
+}
