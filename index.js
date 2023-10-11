@@ -43,7 +43,6 @@ const proyectosDiv = document.querySelector('.proyectos');
 const proyectosGridDiv = document.createElement('div');
 proyectosGridDiv.classList.add('contenedor', 'grid');
 
-
 proyectosArr.forEach((proyecto) => {
     const elementoDiv = document.createElement('div');
     elementoDiv.classList.add('elemento');

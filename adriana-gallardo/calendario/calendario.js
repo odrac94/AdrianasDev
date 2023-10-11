@@ -153,3 +153,12 @@ contenedores.forEach((contenedor, index) => {
         }
     });
 });
+
+
+// Botón para volver
+const volverBtn = document.querySelector('#volverBtn');
+
+// Agregar evento de click al botón
+volverBtn.addEventListener('click', () => {
+    history.back();
+});

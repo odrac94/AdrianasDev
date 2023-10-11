@@ -1,6 +1,7 @@
 :root {
     --color-principal: #ED107A;
     --color-secundario: #292929;
+    --color-blanco: #fff;
 }
 * {
     box-sizing: border-box;
@@ -74,7 +75,7 @@ body {
     border-radius: 10px;
 }
 .titulo .annio h2 {
-    color: #fff;
+    color: var(--color-blanco);;
     font-size: 48px;
     font-weight: 600;
     text-align: center;
@@ -125,7 +126,7 @@ body {
     min-height: 200px;
     display: flex;
     gap: 40px;
-    background-color: #fff;
+    background-color: var(--color-blanco);;
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
     border: 2px solid #D1D5DF;
     border-radius: 10px;
@@ -160,7 +161,7 @@ body {
     z-index: 2;
 }
 .calendario__etiqueta h2 {
-    color: #fff;
+    color: var(--color-blanco);;
     font-family: montserrat;
 }
 .calendario__img {
@@ -202,7 +203,7 @@ a.calendario__btn--evento {
     align-items: center; /* Centrar verticalmente */
     justify-content: center;
     width: 60%;
-    color: #fff;
+    color: var(--color-blanco);;
     background-color: var(--color-principal);
     border: 2px solid var(--color-principal);
     font-size: 15px;
@@ -235,6 +236,47 @@ a.calendario__btn--evento:hover {
     transform: scale(1.100);
 }
 
+/* BOTÓN VOLVER */
+#botonVolverContenedor {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    width: 100%;
+    max-width: 350px;
+}
+#volverBtn {
+    width: 100%;
+    color: var(--color-blanco);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: var(--color-principal);
+    border: 2px solid var(--color-principal);
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    transition: ease-in-out .2s;
+    cursor: pointer;
+}
+#volverBtn:hover {
+    color: var(--color-principal);
+    background-color: transparent;
+    border: 2px solid var(--color-principal);
+    border-radius: 15px 15px 0 0;
+}
+#volverBtn::after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    content: "\f060";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-left: 5px;
+    transition: ease-in-out .1s;
+}
+#volverBtn:hover::after {
+    left: 15px;
+}
 /* MEDIA QUERIES */
 /* DESKTOP SUPER WIDE */
 @media screen and (max-width: 1878px) {
@@ -331,5 +373,34 @@ a.calendario__btn--evento:hover {
     .calendario__grid .columna.sticky {
         position: relative;
         top: 0;
+    }
+    #botonVolverContenedor {
+        position: sticky;
+        z-index: 99;
+        left: 20px;
+        bottom: 0;
+        width: 100%;
+        max-width: 90%;
+    }
+    #volverBtn:hover {
+        color: var(--color-blanco);
+        background-color: var(--color-principal);
+        border: 2px solid var(--color-principal);
+        border-radius: 10px 10px 0 0;
+        transform: translateY(5px);
+    }
+    #volverBtn::after {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 20px;
+        content: "\f060";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        padding-left: 5px;
+        transition: ease-in-out .1s;
+    }
+    #volverBtn:hover::after {
+        left: 15px;
     }
 }

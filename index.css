@@ -4,6 +4,7 @@
     --color-principal: #4F709C;
     --color-secundario: #213555;
     --color-terciario: #E5D283;
+    --color-blanco: #fff;
     --color-background-principal: #F0F0F0;
 }
 * {
@@ -47,6 +48,7 @@ nav.menu {
 }
 .menu a:hover {
     color: var(--color-principal);
+    border-bottom: 2px solid var(--color-principal);
 }
 .seccion.uno {
     padding: 80px 20px 20px 20px;
