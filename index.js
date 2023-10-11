@@ -2,37 +2,37 @@ proyectosArr = [
     {
         img: 'https://www.wordstream.com/wp-content/uploads/2022/07/website-examples-feature.jpg',
         marca: 'Adriana Gallardo',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        descripcion: 'Incluye diseños web para productos como: Empodérate 360, chingonas circle, etc.',
         enlace: 'adriana-gallardo/adriana-gallardo.html'
     },
     {
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/310px-Placeholder_view_vector.svg.png',
+        img: 'https://www.archimetric.com/wp-content/uploads/2022/02/01-youtube-wireframe-example.png',
         marca: "Adriana's Insurance",
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        descripcion: "Incluye diseños web para productos como: Adriana's Life Insurance, My Adriana's",
         enlace: 'adriana-gallardo/adriana-gallardo.html'
     },
     {
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/310px-Placeholder_view_vector.svg.png',
+        img: 'https://blog.hubspot.com/hs-fs/hubfs/website-mockup_2.webp?width=650&height=416&name=website-mockup_2.webp',
         marca: "Adriana's Immigration Services",
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        descripcion: 'Diseño de "componentes" para WordPress utilizando html, css y js',
         enlace: 'adriana-gallardo/adriana-gallardo.html'
     },
     {
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/310px-Placeholder_view_vector.svg.png',
+        img: 'https://colorlib.com/wp/wp-content/uploads/sites/2/25_website_mockup.jpg',
         marca: 'AGI Business',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        descripcion: 'Diseño de "componentes" para WordPress utilizando html, css y js',
         enlace: 'adriana-gallardo/adriana-gallardo.html'
     },
     {
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/310px-Placeholder_view_vector.svg.png',
+        img: 'https://www.techsmith.com/blog/wp-content/uploads/2017/10/Website-mock-up-image-855.jpg',
         marca: 'AGNC Media Group',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        descripcion: 'Diseño de "componentes" para WordPress, Duda, Shopify, utilizando html, css y js.',
         enlace: 'adriana-gallardo/adriana-gallardo.html'
     },
     {
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/310px-Placeholder_view_vector.svg.png',
+        img: 'https://graphberry-imgs.imgix.net/perspective-website-psd-mock-up-144.jpg?auto=compress,format&q=80&w=800',
         marca: 'AGLA',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        descripcion: 'Diseño de "componentes" para Kajabi utilizando html, css y js.',
         enlace: 'adriana-gallardo/adriana-gallardo.html'
     }
 ];
@@ -41,9 +41,10 @@ proyectosArr = [
 const proyectosDiv = document.querySelector('.proyectos');
 
 const proyectosGridDiv = document.createElement('div');
-    proyectosGridDiv.classList.add('contenedor', 'grid');
+proyectosGridDiv.classList.add('contenedor', 'grid');
 
-for (const proyecto of proyectosArr) {
+
+proyectosArr.forEach((proyecto) => {
     const elementoDiv = document.createElement('div');
     elementoDiv.classList.add('elemento');
 
@@ -75,4 +76,4 @@ for (const proyecto of proyectosArr) {
     cartaDiv.appendChild(cartaContenidoDiv);
     cartaContenidoDiv.appendChild(marcaH2);
     cartaContenidoDiv.appendChild(descripcionP);
-};
+});
