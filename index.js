@@ -3,7 +3,7 @@ proyectosArr = [
         img: 'https://www.wordstream.com/wp-content/uploads/2022/07/website-examples-feature.jpg',
         marca: 'Adriana Gallardo',
         descripcion: 'Incluye diseños web para productos como: Empodérate 360, chingonas circle, etc.',
-        enlace: 'adriana-gallardo/adriana-gallardo.html'
+        enlace: './adriana-gallardo/adriana-gallardo.html'
     },
     {
         img: 'https://www.archimetric.com/wp-content/uploads/2022/02/01-youtube-wireframe-example.png',
