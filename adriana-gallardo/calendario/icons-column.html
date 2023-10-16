@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICONOS</title>
+    <style>
+        body {
+            background-color: blueviolet;
+        }
+        .iconos--beneficios {
+            position: relative;
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+            display: flex;
+            gap: 10px;
+        }
+        .icono--beneficios {
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            align-self: flex-start;
+        }
+        .icono--beneficios h2 {
+            color: #fff;
+            margin-top: 15px;
+        }
+        .icono--img {
+            width: 100px;
+            height: 100px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+        }
+        .icono--img.income {
+            background-image: url('https://i0.wp.com/myadrianas.com/wp-content/uploads/2023/03/unlimited-income-icon@2x.png');
+        }
+        .icono--img.training {
+            background-image: url('https://i0.wp.com/myadrianas.com/wp-content/uploads/2023/03/free-training-icon@2x.png');
+        }
+        .icono--img.clients {
+            background-image: url('https://i0.wp.com/myadrianas.com/wp-content/uploads/2023/03/unlimited-free-leads-icon@2x.png');
+        }
+        @media screen and (max-width: 460px){
+            .iconos--beneficios {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="iconos--beneficios">
+        <div class="icono--beneficios">
+            <div class="icono--img income">
+
+            </div>
+            <h2>Unlimited income</h2>
+        </div>
+        <div class="icono--beneficios">
+            <div class="icono--img training">
+            </div>
+            <h2>Free training</h2>
+        </div>
+        <div class="icono--beneficios">
+            <div class="icono--img clients">
+            </div>
+            <h2>Free clients</h2>
+        </div>
+    </div>
+</body>
+</html>
