@@ -19,7 +19,18 @@ body {
     font-family: "montserrat", sans-serif;
     padding: 50px 20px;
     align-items: stretch;
+    opacity: 0;
+    animation: aparecer 1s ease-in-out forwards;
 }
+/* Define la animación */
+@keyframes aparecer {
+    from {
+      opacity: 0; /* Inicialmente, la opacidad está en 0 (invisible) */
+    }
+    to {
+      opacity: 1; /* Al final de la animación, la opacidad está en 1 (completamente visible) */
+    }
+  }
 .calendario__grid .columna {
     position: relative;
     width: 100%;
