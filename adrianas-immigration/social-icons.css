@@ -1,0 +1,58 @@
+::root {
+    --color-principal: #000;
+    --color-secundario: #fff;
+}
+body {
+    background-color: salmon;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* SOCIAL MEDIA ICONS */
+.social-icons {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.social__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.social-icons .element, .social-icons a {
+    width: 100%;
+    text-align: center;
+}
+.social-icons .img {
+    width: 100%;
+    text-align: center;
+}
+.social-icons .img img {
+    width: 100%;
+    text-align: center;
+    max-width: 30px;
+    transition: ease-in-out .2s;
+}
+.social-icons .img img:hover {
+    transform: scale(1.15);
+}
+.social-icons .img img:active {
+    transform: scale(0.95);
+}
+@media screen and (max-width: 260px) {
+    .social__container {
+        flex-direction: column;
+    }
+}
