@@ -1,14 +1,5 @@
 const eventos = [
     {
-        img: 'https://cdn.shopify.com/s/files/1/0524/7326/6329/files/descubre-tu-poder-interior-thumbnail03.jpg',
-        titulo: 'Descubre tu poder interior: Sesión virtual de preguntas y respuestas',
-        fecha: 'FEB 25, 2023',
-        descripcion: 'Descubre tu poder interior y EMPODÉRATE. Sesión Q&A GRATIS con Adriana Gallardo.',
-        enlaceVerMas: 'https://www.adrianagallardo.com/pages/descubre-tu-poder',
-        google: 'https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231026T000000Z%2F20231026T020000Z&details=%C2%BFQu%C3%A9%20puedes%20esperar%20en%20este%20encuentro%3F%0A%0AConversaciones%20Significativas%3A%20Abordaremos%20preguntas%20que%20son%20importantes%20para%20tu%20vida%20y%20tu%20desarrollo.%0AConsejos%20Personalizados%3A%20Te%20proporcionar%C3%A9%20orientaci%C3%B3n%20basada%20en%20tus%20desaf%C3%ADos%20espec%C3%ADficos.%0AComunidad%20de%20Apoyo%3A%20Con%C3%A9ctate%20con%20otras%20mujeres%20incre%C3%ADbles%20que%20est%C3%A1n%20en%20el%20mismo%20viaje%20que%20t%C3%BA.&location=CA&text=Descubre%20tu%20poder%20interior%3A%20Sesi%C3%B3n%20virtual%20de%20preguntas%20y%20respuestas',
-        outlook: 'https://outlook.live.com/calendar/0/action/compose?allday=false&body=%C2%BFQu%C3%A9%20puedes%20esperar%20en%20este%20encuentro%3F%0A%0AConversaciones%20Significativas%3A%20Abordaremos%20preguntas%20que%20son%20importantes%20para%20tu%20vida%20y%20tu%20desarrollo.%0AConsejos%20Personalizados%3A%20Te%20proporcionar%C3%A9%20orientaci%C3%B3n%20basada%20en%20tus%20desaf%C3%ADos%20espec%C3%ADficos.%0AComunidad%20de%20Apoyo%3A%20Con%C3%A9ctate%20con%20otras%20mujeres%20incre%C3%ADbles%20que%20est%C3%A1n%20en%20el%20mismo%20viaje%20que%20t%C3%BA.&enddt=2023-10-26T02%3A00%3A00%2B00%3A00&location=CA&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-26T00%3A00%3A00%2B00%3A00&subject=Descubre%20tu%20poder%20interior%3A%20Sesi%C3%B3n%20virtual%20de%20preguntas%20y%20respuestas'
-    },
-    {
         img: 'https://d2zjr4930cxu48.cloudfront.net/event/71467/1._Calendario_AG_NOV17-2023.jpg',
         titulo: 'Certificación: Aprende a hablar en público',
         fecha: 'NOV 17, 2023',
@@ -39,10 +30,7 @@ const eventos = [
 
 const eventosImgs = [
     {
-        img: 'https://www.adrianagallardo.com/cdn/shop/files/descubre_tu_poder-12_750x.jpg?v=1696637893',
-    },
-    {
-        img: 'https://images.clickfunnels.com/cdn-cgi/image/f=auto,q=80/https://statics.myclickfunnels.com/image/1116369/file/f8d63bf44b9c0cc5cbf31305ef9e37ad.jpg',
+        img: 'https://images.clickfunnels.com/cdn-cgi/image/f=auto,q=80/https://statics.myclickfunnels.com/image/1295048/file/9a629a1701ea861e250b4953bea34da5.jpg',
     },
     {
         img: 'https://images.clickfunnels.com/cdn-cgi/image/f=auto,q=80/https://statics.myclickfunnels.com/image/1117073/file/9dbae38a39f5dcb1433b6a63fae9203a.jpg',

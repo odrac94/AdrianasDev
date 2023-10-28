@@ -1,0 +1,93 @@
+@import url("https://use.typekit.net/yyz6vzn.css");
+
+:root {
+    --color-principal: #292929;
+    --color-secundario: #e0b84f;
+    --color-negro: #000;
+    --color-blanco: #fff;
+
+
+    /* ANCHO DE CONTENEDORES */
+    --ancho-maximo: 1000px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.seccion {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: var(--color-principal);
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contenedor {
+    position: relative;
+    width: 100%;
+    max-width: var(--ancho-maximo);
+    margin: 0 auto;
+    padding: 0;
+}
+.columna {
+    position: relative;
+    align-self: center;
+    width: 100%;
+}
+.contenedor--flex {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+.biografia .contenedor--texto {
+    font-size: 3.3rem;
+    line-height: 1.4;
+}
+.contenedor--texto {
+    font-size: 3.5rem;
+}
+.contenedor--img img {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.contenedor--texto h2 {
+    color: var(--color-principal);
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.seccion-tres .contenedor--texto {
+    text-align: center;
+}
+/* ETIQUETA */
+.etiqueta h2 {
+    position: relative;
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0 0 30px 0;
+    padding: 5px 20px;
+}
+@media screen and (max-width: 1050px) {
+    .biografia {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .contenedor--flex {
+        flex-wrap: wrap;
+    }
+}

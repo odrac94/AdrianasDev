@@ -1,0 +1,192 @@
+:root {
+    --color-principal: #ff5252;
+    --color-secundario: #1f1f25;
+}
+
+.contenedor__servicios {
+    display: flex;
+}
+.icono__servicios_columna {
+    align-self: center;
+      margin: 0 20px;
+}
+.contenedor {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+}
+
+.botonera {
+margin: 0 0 50px 0;
+}
+
+.botonera a {
+font-size: 25px;
+margin: 0 20px;
+color: #F5245F;
+font-weight: 600;
+}
+
+.botonera a:hover {
+text-decoration: underline;
+}
+
+.box {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.store-item {
+margin: 10px;
+}
+
+.store-item img {
+    width: 100%;
+    display: block;
+    transition: .3s;
+    border: 2.5px solid var(--color-principal);
+    border-radius: 20px;
+}
+
+.store-item img:hover {
+box-shadow: 10px 7px 0px 0px var(--color-secundario);
+border-radius: 20px;
+}
+
+.contenedor__redes {
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 100%;
+}
+.imagen__redes {
+width: 20px;
+margin: 0 20px;
+}
+.imagen__redes img {
+width: 100%;
+}
+.imagen__redes img:hover {
+transform: scale(1.5);
+}
+
+/*css para testimoniales*/
+.contenedor__testimoniales {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    width: 100%;
+    align-items: center;
+}
+.contenedor__texto_testimoniales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+  background-image: url(https://agncmediagroup.com/wp-content/uploads/2023/01/pattern_testimonials.png);
+    padding: 50px;
+    box-shadow: 10px 5px 30px 5px rgba(31, 31, 37, 0.15);
+    border-radius: 10px;
+    max-width: 669px;
+    height: 579px;
+    z-index: 99;
+}
+.contenedor__texto_testimoniales h2 {
+    color: #F5245F;
+    font-size: 45px;
+  font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 3px 0px #000;
+    margin-bottom: 50px;
+}
+.contenedor__texto_testimoniales p {
+    font-size: 28px;
+  color: #000;
+  line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+.contenedor__texto_testimoniales h3 {
+    color: #F5245F;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor__texto_testimoniales h4 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.shape__testimoniales {
+    position: absolute;
+    z-index: -1;
+    top: -150px;
+}
+.personas__testimoniales {
+    position: relative;
+    left: 170px;
+    top: -80px;
+    z-index: -1;
+}
+.botones__testimoniales {
+    display: flex;
+    background-color: transparent;
+}
+.btn-prev, .btn-next {
+    margin: 0 5px;
+}
+@media only screen and (max-width: 600px) {
+/* ocultar botones */
+.btn-prev, .btn-next {
+    display: none;
+}
+.columna__testimoniales {
+    margin: 0;
+}
+.imagenes__testimoniales {
+    width: 100%;
+    text-align: center;
+}
+.shape__testimoniales {
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+.personas__testimoniales {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.shape__testimoniales img {
+    width: 100%;
+}
+.personas__testimoniales img {
+    width: 80%;
+    border-radius: 10px;
+}
+.contenedor__texto_testimoniales {
+    display: flex;
+    margin-top: 240px;
+    padding: 50px 20px;
+    border-radius: 20px;
+    width: 320px;
+    height: 500px;
+}
+.contenedor__texto_testimoniales h2 {
+    font-size: 30px;
+    text-shadow: 1px 1px 0px #000;
+      margin-bottom: 20px;
+}
+        /* iconos servicios */
+        .contenedor__servicios {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+}
